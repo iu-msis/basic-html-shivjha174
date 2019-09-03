@@ -1,0 +1,16 @@
+/*All color codes have been picked from  https://www.rapidtables.com/web/color/RGB_Color.html */
+
+
+.navbar-light .navbar-brand { /* overriding navbar.scss */
+  color: white;
+}
+.navbar-light .navbar-brand:hover {
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link { /* overriding navbar.scss */
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
