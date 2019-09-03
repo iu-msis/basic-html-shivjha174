@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Home Page</title> <!-- All CDNs have been taken from https://getbootstrap.com/docs/4.0/getting-started/introduction/#js -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark"> <!-- this has been referenced from https://getbootstrap.com/docs/4.0/components/navbar/ -->
+    <a class="navbar-brand nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="user-info.html">User-Info</a>
+        <a class="nav-item nav-link" href="table-data.html">Books</a>
+      </div>
+    </div>
+  </nav>
+  <br> <br>
+  <table class="table table-condensed table-striped">
+    <thead class="header-bg">
+        <tr>
+            <th>Title </th>
+            <th>Author</th>
+            <th>Year Published</th>
+            <th>Publisher</th>
+            <th>Page Count</th>
+            <th>MSRP</th>
+        </tr>
+    </thead>
+    <tbody> <!-- This book-related data has been referenced from https://www.amazon.com/gp/bestsellers/2018/books -->
+        <tr>
+            <td>Becoming Michelle Obama</td>
+            <td>Michelle Obama</td>
+            <td>2018</td>
+            <td>Oprah Book Club</td>
+            <td>500</td>
+            <td>$16.25</td>
+        </tr>
+        <tr>
+            <td>The Wonkey Donkey</td>
+            <td>Craig Smith, Katz Cowley</td>
+            <td>2018</td>
+            <td>Scholastic</td>
+            <td>500</td>
+            <td>$4.99</td>
+        </tr>
+        <tr>
+            <td>Fire and Fury: Inside the Trump White House</td>
+            <td>Michael Wolff</td>
+            <td>2018</td>
+            <td>Henry Holt and Company</td>
+            <td>500</td>
+            <td>$15.70</td>
+        </tr>
+        <tr>
+            <td>A Higher Loyalty</td>
+            <td>James Comey</td>
+            <td>2018</td>
+            <td>Flatiron Books</td>
+            <td>500</td>
+            <td>$15.80</td>
+        </tr>
+    </tbody>
+  </table>
+  <h6 align="center" class="add-book"> Add a New Book?</h6>
+  <form> <!-- this recipe has been pulled from bootstrap website https://getbootstrap.com/docs/4.0/components/forms/ and then modified -->
+    <div class="form-group row no-margin">
+      <label for="bookName" class="col-sm-2">Book Name</label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="bookName" placeholder="Name">
+      </div>
+    </div>
+    <div class="form-group row no-margin">
+      <label for="author" class="col-sm-2">  Book Author</label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="author" placeholder="Author Name">
+      </div>
+    </div>
+    <div class="form-group row no-margin">
+      <label for="year" class="col-sm-2">  Year Published</label>
+      <div class="col-sm-8">
+        <input type="number" class="form-control" id="year" placeholder="Year">
+      </div>
+    </div>
+    <div class="form-group row no-margin">
+      <label for="publishName" class="col-sm-2">Publisher Name</label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="publishName" placeholder="Publisher">
+      </div>
+    </div>
+    <div class="form-group row no-margin">
+      <label for="count" class="col-sm-2">  Page Count</label>
+      <div class="col-sm-8">
+        <input type="number" class="form-control" id="count" placeholder="Page Count">
+      </div>
+    </div>
+    <div class="form-group row no-margin">
+      <label for="mrp" class="col-sm-2">  MSRP</label>
+      <div class="col-sm-8">
+        <input type="number" class="form-control" id="mrp" placeholder="Price">
+      </div>
+    </div>
+    <button type="submit" class="btn btn-success btn-center">Submit</button>
+  </form>
+  <br><br>
+</body>
+</html>

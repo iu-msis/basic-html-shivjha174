@@ -30,3 +30,31 @@
   font-size: 20px;
   color: #505050;
 }
+
+/* adding classes for Books page */
+.add-book {
+  background-color: #A0A0A0;
+  height: 40px;
+  padding-top: 8px;
+  font: 20px;
+}
+
+.btn-center {
+   margin-left: 45%;
+}
+.no-margin {
+  margin: 7px 0 7px 0;
+}
+
+.header-bg {
+  background-color: #202020;
+  color: white;
+}
+.citation, .citation-user {
+  font-size: 15px;
+  color: #A0A0A0;
+  margin-left:10%;
+}
+.citation-user {
+  margin-left:0;
+}
