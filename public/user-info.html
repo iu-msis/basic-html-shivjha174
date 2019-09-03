@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Home Page</title> <!-- All CDNs have been taken from https://getbootstrap.com/docs/4.0/getting-started/introduction/#js -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark"> <!-- this has been referenced from https://getbootstrap.com/docs/4.0/components/navbar/ -->
+    <a class="navbar-brand nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="user-info.html">User-Info</a>
+        <a class="nav-item nav-link" href="table-data.html">Books</a>
+      </div>
+    </div>
+  </nav>
+  <br><br>
+  <div class="container">
+    <div class="row" id="user-photo-section">
+      <img src="img/Screenshot_16.png" alt="no-img" width="180px">
+    </div>
+    <br>
+    <div class="row user-header-row"> <!-- Following user data has been picked from https://randomuser.me/-->
+      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">Name</div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">Country of Origin</div>
+      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">Date of birth</div>
+      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">Age</div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">Mail To</div>
+    </div>
+    <div class="row user-data">
+      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">Braydon Morison</div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">United States</div>
+      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">2/2/73</div>
+      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">46</div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="mailto:braydon.morrison49@gmail.com">braydon.morrison49@gmail.com<a></div> <!-- reference https://www.w3schools.com/tags/tag_address.asp -->
+    </div>
+
+</body>
+</html>

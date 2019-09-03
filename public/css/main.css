@@ -14,3 +14,19 @@
 .navbar-light .navbar-nav .nav-link:hover {
   color: white;
 }
+ /* adding classes for user page */
+.user-header-row {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #202020;
+  color: white;
+}
+
+#user-photo-section {
+  margin-left: 40%;
+}
+
+.user-data {
+  font-size: 20px;
+  color: #505050;
+}
