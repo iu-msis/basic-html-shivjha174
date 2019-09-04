@@ -58,3 +58,7 @@
 .citation-user {
   margin-left:0;
 }
+.anchor-style, .anchor-style:hover {
+  color: green;
+  text-decoration: none;
+}
